@@ -1,0 +1,38 @@
+<style>
+		header{
+			background: #99ffcc;
+			border-left: 30px solid #d6d5cd;
+			border-width: 30px solid #d6d5cd 0px 3px 0px;
+			margin: 0 auto;
+			text-align: center;
+
+			}
+		h1{
+			font-size: 3em;
+		}
+		h3{
+			background-color: #99ffcc;
+			padding:10px ;
+			font-size: 1.5em;
+			border-left: 30px solid #d6d5cd;
+			}
+		body{
+			font-family: helvetica, arial, sans-serif;
+		}
+		header,h3{
+			color: black;
+			font-family: "Arial Black",Gadget, sans-serif;
+		}
+		p,ul{
+			padding-left: 50px;
+		}
+		.circle{
+
+		width:200px;
+		height:200px;
+		background-color:#00cc00;
+		border-radius: 50%;
+		border: 5px solid white;
+		display: inline-block;
+		}
+	</style>

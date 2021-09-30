@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body{
+		font-family: tahoma;
+		text-align: center;
+	}
+	header {
+		letter-spacing: 5px;
+		background: royalblue;
+		padding: 20px;
+		color: white;
+	}
+	h2{
+		font-size: 2em;
+		width: 100%;		
+	}
+	section{
+		padding: 30px;
+		margin-bottom: 40px;
+	}
+	.container{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.card{
+		border: 1px solid #ccc;
+		background-color: ivory;
+		padding: 25px;
+		margin: 25px;
+		box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+	}
+	@media screen and (min-width: 40em){
+		.card{
+			flex-basis: 150px;
+		}
+		header h1{
+			font-size: 5em;
+		}
+	}
+	.icons{
+		font-size: 8em;
+		padding: 25px;
+	}
+	.button, .container{
+		margin: 10px;
+	}
+	button, .button{
+		background: royalblue;
+		border: 0;
+		color: white;
+		padding: 10px;
+		width: 100%;
+		margin-bottom: 10px;
+
+	}
+	.blue{
+		background: teal;
+	}
+	</style>
+	<meta charset="utf-8">
+	<title>TRAINING 2</title>
+	
+	
+</head>
+<body>
+	<header>
+		<h1>SnsMD IT Industries Inc.</h1>
+		<h2>Industrial Automation</h2>
+		<h4>How AI is being deployed across industries</h4>
+	</header>
+
+	<section>
+		<h2>Welcome to SnsMD IT Industries</h2>
+		<p>Our narrative so far closely shapes what we are today and influences our continuing tranformation</p>
+		<br>
+		<h2>About Us</h2>
+		<p>The name SnsMD IT is synonymous with groundbreaking IT innovation in Sri Lanka, with an equally strong reputation globally. A fully-owned subsidiary of the SnsMD Corporation, they are recognized industry-wide as the country’s largest IT solutions provider. The pioneering firm is now led by its 3rd Generation, and its reach extends to several thousand employees covering 5 league locations in Sri Lanka. While drawing on the inherent strengths of its family business roots, SnsMD IT has gone onto revolutionize the IT landscape across the globe in a meaningful and impactful way.</p>
+	</section>
+		
+	<section class="blue container">
+		<h2>SERVICES://</h2>
+		<article class="card">
+			<div class="icons">&#10084;</div>
+			<h3>Sanoos</h3>
+			<p>jnr. web developer - creates beautiful websites for businesses.</p>
+			<button>learn more</button>
+		</article>
+		<article class="card">
+			<div class="icons">&#10084;</div>
+			<h3>Rifath</h3>
+			<p>senior software engineer-tech lead</p>
+			<button>learn more</button>
+		</article>
+		<article class="card">
+			<div class="icons">&#10084;</div>
+			<h3>Namis</h3>
+			<p>senior System analyst</p>
+			<button>learn more</button>			
+		</article>
+		<article class="card">
+			<div class="icons">&#10084;</div>
+			<h3>Zakky</h3>
+			<p>jnr. web developer</p>
+			<button>learn more</button>			
+		</article>
+		
+	</section>
+	
+</body>
+</html>
